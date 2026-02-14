@@ -1,0 +1,39 @@
+# Sensitive business data
+07-operations/finances/
+07-operations/legal/
+
+# Credentials & secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.mov
+*.avi
+*.psd
+*.ai
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Node modules (if any automation scripts use them)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
