@@ -20,11 +20,6 @@
     "notion": {
       "type": "http",
       "url": "https://mcp.notion.com/mcp"
-    },
-    "nanobanana": {
-      "command": "npx",
-      "args": ["-y", "nanobanana-api-mcp"],
-      "description": "Google Gemini AI image generation/editing (Tier 3 — requires GOOGLE_API_KEY)"
     }
   }
 }
