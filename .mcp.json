@@ -20,6 +20,13 @@
     "notion": {
       "type": "http",
       "url": "https://mcp.notion.com/mcp"
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "여기에_API_키_입력"
+      }
     }
   }
 }
